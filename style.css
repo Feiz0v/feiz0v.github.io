@@ -50,6 +50,10 @@ p {
     margin-top: 0;
 }
 
+.ital {
+  font-style: italic;
+}
+
 #m-bottom {
     margin-top: 10px;
 }
