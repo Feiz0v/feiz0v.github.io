@@ -486,7 +486,7 @@
 
 .advantage::before {
   content: '';
-  width: 50%;
+  width: 30%;
   height: 50%;
   position: absolute;
   top: 50%;
