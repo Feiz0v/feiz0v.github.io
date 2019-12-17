@@ -490,7 +490,7 @@
   height: 50%;
   position: absolute;
   top: 50%;
-  right: -100px;
+  right: 200px;
   -webkit-transform: translateY(-60%);
           transform: translateY(-60%);
   background-image: url(./image/girl.png);
