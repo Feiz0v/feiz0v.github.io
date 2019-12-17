@@ -486,11 +486,11 @@
 
 .advantage::before {
   content: '';
-  width: 30%;
+  width: 50%;
   height: 50%;
   position: absolute;
   top: 50%;
-  right: 200px;
+  right: 0;
   -webkit-transform: translateY(-60%);
           transform: translateY(-60%);
   background-image: url(./image/girl.png);
