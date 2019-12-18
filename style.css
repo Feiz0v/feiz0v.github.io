@@ -419,6 +419,18 @@ body {
   right: 110px;
 }
 
+.phone {
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.phone i {
+  margin-right: 10px;
+  color: #ffd752;
+}
+
 .subscribe {
   display: block;
   width: 180px;
