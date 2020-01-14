@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./lib/owl.carousel.css">
+    <link rel="stylesheet" href="./lib/owl.theme.default.css">
+    <link rel="stylesheet" href="./lib/fullpage.min.css">
+    <link href="./lib/hamburgers.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <title>sit3up | Web разработка</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__mobile">
+                <a href="/" class="mobile_logo__link"><img src="./image/logo.png" alt="logotip" class="mobile_logo__image"></a>
+                <button class="hamburger hamburger--arrow-r" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+        </div>
+        <div class="mobile">
+                <nav class="mobile__navlist">
+                    <a href="#main" class="mobile__navlink">Главная</a>
+                    <a href="#portfolioSection" class="mobile__navlink">Портфолио</a>
+                    <a href="#whatIncludeSection" class="mobile__navlink">Стоимость</a>
+                    <a href="#variantsSection" class="mobile__navlink">Варианты</a>
+                    <a href="#aboutSection" class="mobile__navlink">Обо мне</a>
+                </nav>
+                <div class="mobile__contacts">
+                    <div class="mobile__contacts_phone">
+                            <i class="fas fa-phone"></i>
+                            <span>8 (977) 730-53-14</span>
+                    </div>
+                    <div class="mobile__contacts_email">
+                            <i class="far fa-envelope"></i>
+                            <span>info@sit3up.ru</span>
+                    </div>
+                    <div class="mobile__contacts_social">
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+        </div>
+        <div class="header__container">
+            <div class="logo">
+                <i class="fas fa-globe-asia"></i>
+                <a href="/" class="logo__link"><img src="./image/logo.png" alt="logotip" class="logo__image"></a>
+            </div>
+            <nav class="menu" id="top-menu">
+                <a href="#homePage" data-menuanchor="homePage" class="menu__item home-link active-p">Главная</a>
+                <a href="#portfolioPage" data-menuanchor="portfolioPage" class="menu__item portfolio-link">Портфолио</a>
+                <a href="#whatIncludePage" data-menuanchor="whatIncludePage" class="menu__item what-include-link">Стоимость</a>
+                <a href="#variantsPage" data-menuanchor="variantsPage" class="menu__item variants-link">Варианты</a>
+                <a href="#aboutPage" data-menuanchor="aboutPage" class="menu__item about-link">Обо мне</a>
+            </nav>
+            <div class="contacts">
+                <div class="contacts__phone">
+                    <i class="fas fa-phone"></i>
+                    <span>8 (977) 730-53-14</span>
+                </div>
+                <div class="contacts__email">
+                    <i class="far fa-envelope"></i>
+                    <span>info@sit3up.ru</span>
+                </div>
+                <div class="contacts__social">
+                    <a href="#" class="contacts__link"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="contacts__link"><i class="fab fa-vk"></i></a>
+                    <a href="#" class="contacts__link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main" id="fullpage">
+        <section class="main section" id="main">
+            <div class="main__container">
+                <div class="main__content">
+                    <h1 class="main__title">Разработка сайтов</h1>
+                    <p class="main__subtitle">Дизайн | Вёрстка | Интеграция в CMS</p>
+                    <button class="main__get-consult">Узнать стоимость</button>
+                </div>
+                <div class="main_image">
+                    <span class="parallax"></span>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio section" id="portfolioSection">
+            <div class="portfolio__container">
+                    <a id="portfolio"></a>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="portfolio__image">
+                            <img src="./image/meshyovka.jpg" alt="site_meshyovka">
+                        </div>
+                        <div class="gradient"></div>
+                        <div class="portfolio__description desc-active">
+                            <h4>Создание сайта</h4>
+                            <h2>Фермерские продукты из Калужской области</h2>
+                            <button>Посмотреть проект</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="portfolio__image">
+                            <img src="./image/grace.jpg" alt="site_grace">
+                        </div>
+                        <div class="gradient"></div>
+                        <div class="portfolio__description">
+                            <h4>Разработка дизайна</h4>
+                            <h2>Салон красоты</h2>
+                            <button>Посмотреть проект</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="portfolio__image">
+                            <img src="./image/farzza.jpg" alt="site_fazza">
+                        </div>
+                        <div class="gradient"></div>
+                        <div class="portfolio__description">
+                            <h4>Разработка дизайна</h4>
+                            <h2>Магазин модной молодежной одежды</h2>
+                            <button>Посмотреть проект</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="portfolio__image">
+                            <img src="./image/ecouslugi.jpg" alt="site_ecouslugi" class="portfolio__image">
+                        </div>
+                        <div class="gradient"></div>
+                        <div class="portfolio__description">
+                            <h4>Создание сайта</h4>
+                            <h2>Экологическое проектирование и консалтинг</h2>
+                            <button>Посмотреть проект</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="portfolio__image">
+                            <img src="./image/chertiche.jpg" alt="site_chertiche" class="portfolio__image">
+                        </div>
+                        <div class="gradient"></div>
+                        <div class="portfolio__description">
+                            <h4>Разработка дизайна</h4>
+                            <h2>Магазин подарков и сувениров</h2>
+                            <button>Посмотреть проект</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="what-include section" id="whatIncludeSection">
+            <div class="what-include__wrapper">
+                    <h2 class="what-include__title">Что входит в стоимость создания сайтов</h2>
+                    <ul class="what-include__nav-list">
+                        <li class="what-include__item" id="cmsItem" tabindex="0">
+                            <div class="top-bord top-zero border"></div>
+                            <div class="right-bord right-zero border"></div>
+                            <div class="bottom-bord bottom-zero border"></div>
+                            <div class="left-bord left-zero border"></div>
+                            <h5>CMS</h5>
+                            <i class="fa fa-cogs light" aria-hidden="true"></i>
+                        </li>
+                        <li class="what-include__item" id="designItem" tabindex="0">
+                            <div class="top-bord border"></div>
+                            <div class="right-bord border"></div>
+                            <div class="bottom-bord border"></div>
+                            <div class="left-bord border"></div>
+                            <h5>Дизайн</h5>
+                            <i class="fas fa-palette"></i>
+                        </li>
+                        <li class="what-include__item" id="impLayoutItem" tabindex="0">
+                            <div class="top-bord border"></div>
+                            <div class="right-bord border"></div>
+                            <div class="bottom-bord border"></div>
+                            <div class="left-bord border"></div>
+                            <h5>Вёрстка</h5>
+                            <i class="fas fa-code"></i>
+                        </li>
+                        <li class="what-include__item" id="programmingItem" tabindex="0">
+                            <div class="top-bord border"></div>
+                            <div class="right-bord border"></div>
+                            <div class="bottom-bord border"></div>
+                            <div class="left-bord border"></div>
+                            <h5>Программирование функционала</h5>
+                            <i class="fas fa-code-branch"></i>
+                        </li>
+                    </ul>
+                    <div class="what-include__container">
+                        <div class="what-include__desctiption">
+                            <div class="what-include__description-item what-description_active" id="cms">
+                                <div class="image">
+                                    <h3>CMS</h3>
+                                    <i class="fa fa-cogs" aria-hidden="true"></i>
+                                </div>
+                                <p>Бесплатные CMS изначально имеют минимальный функционал, и дополнительные функции внедряются установленными модулями. Плюсом является то, что продукт полностью ваш и нет необходимости платить за свой сайт арендную плату. В стоимость создания web сайтов под ключ чаще всего входит бесплатная Cms.</p>
+                            </div>
+                            <div class="what-include__description-item" id="design">
+                                <div class="image">
+                                    <h3>Дизайн</h3>
+                                    <i class="fas fa-palette"></i>
+                                </div>
+                                <p>Чтобы сайт выгодно отличался от десятков конкурентов в вашей тематике, он должен вызывать у клиента эмоцию «вау». Как правило, разработка качественного дизайна сайта занимает до двух недель. Если рассматривать слово «дизайн» в широком смысле, то он включает в себя маркетинг и юзабилити.</p>
+                            </div>
+                            <div class="what-include__description-item" id="impLayout">
+                                <div class="image">
+                                    <h3>Вёрстка</h3>
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <p>Помимо перетягивания дизайна на CMS верстка включает в себя правильное отображение на разных устройствах, разных браузерах, разных разрешениях экранов. Под каждый монитор необходимо подстраивать сайт, чтобы в конце он стал полностью адаптивным.</p>
+                            </div>
+                            <div class="what-include__description-item" id="programming">
+                                <div class="image">
+                                    <h3>Программирование функционала</h3>
+                                    <i class="fas fa-code-branch"></i>
+                                </div>
+                                <p>Для этого составляется схема работы от получения заявки до реализации продукта, определяются слабые стороны (то, что занимает больше всего времени у сотрудников) и программируются модули, решающие эти задачи.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="what-include__sub-description">*Каждая из выполняемых работ, в зависимости от технического задания, может иметь разную сложность, отсюда стоимость создания сайтов под ключ может сильно варьироваться.</p>
+            </div>
+        </section>
+        <section class="variants section" id="variantsSection">
+            <div class="variants__wrapper">
+                <h2 class="variants__title">Варианты и стоимость создания сайтов</h2>
+                <ul class="variants__list">
+                    <li class="variants__item">
+                        <h3 class="variants__item_title">Визитка</h3>
+                        <span class="variants__item_price">от 2000 р.</span>
+                        <p class="variants__item_description">Небольшой сайт (презентация компании, продукта или услуги) на котором содержатся данные о компании, товарах и услугах.</p>
+                        <ul class="variants__item_sublist">
+                            <li>- Быстрая разработка</li>
+                            <li>- Низкая стоимость</li>
+                            <li>- Продающий дизайн</li>
+                            <li>- Готовность к сео</li>
+                        </ul>
+                        <button class="variants__item_zakaz">Заказать</button>
+                    </li>
+                    <li class="variants__item">
+                        <h3 class="variants__item_title">Landing</h3>
+                        <span class="variants__item_price">от 5000 р.</span>
+                        <p class="variants__item_description">Одностраничный сайт, который создан с целью красочной презентации товара или услуги.</p>
+                        <ul class="variants__item_sublist">
+                            <li>- Уникальный дизайн</li>
+                            <li>- Адаптивная верстка</li>
+                            <li>- Юзабилити</li>
+                        </ul>
+                        <button class="variants__item_zakaz">Заказать</button>
+                    </li>
+                    <li class="variants__item">
+                        <h3 class="variants__item_title">Корпоративный</h3>
+                        <span class="variants__item_price">от 10000 р.</span>
+                        <p class="variants__item_description">Корпоративный сайт — это лицо компании и в первую очередь выполняет имиджевую функцию.</p>
+                        <ul class="variants__item_sublist">
+                            <li>- Фирменный стиль</li>
+                            <li>- Анализ конкурентов</li>
+                            <li>- Разработка SEO структуры</li>
+                            <li>- Мобильная вёрстка</li>
+                        </ul>
+                        <button class="variants__item_zakaz">Заказать</button>
+                    </li>
+                    <li class="variants__item">
+                        <h3 class="variants__item_title">МАГАЗИН</h3>
+                        <span class="variants__item_price">от 20000 р.</span>
+                        <p class="variants__item_description">Сайт, который торгует товарами или услугами в сети Интернет.</p>
+                        <ul class="variants__item_sublist">
+                            <li>- Неограниченное количество товаров</li>
+                            <li>- Интеграция с ТК</li>
+                            <li>- Быстрая скорость загрузки</li>
+                            <li>- Отсутствие ошибок</li>
+                        </ul>
+                        <button class="variants__item_zakaz">Заказать</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="about section" id="aboutSection">
+            <div class="about__wrapper">
+                <div class="about__description">
+                    <h2>Денис - это я, частный вебмастер по созданию и продвижению сайтов в Москве и области.</h2>
+                    <p>Разрабатываю сайты способные с успехом разрешить Ваши задумки, не уступающие конкурентам. Работаю с использованием современных веб-технологий - html5, css3, jquery, php. А это - уникальный дизайн, чистая вёрстка, настройка CMS с возможностью редактировать практически любой элемент сайта через админ-панель, не прибегая к исходникам. То что Вам нужно. Заказывая сайт у частного вебмастера Вы оказываетесь в двойном плюсе. Во-первых - Вы не переплачиваете компаниям, а во-вторых - у Вас будет круглосуточная связь с разработчиком. Все возникшие у Вас вопросы решаются одним звонком.</p>
+                    <span>Приеду на собеседование в пределах города Москвы для обсуждения деталей сотрудничества.</span>
+                    <button class="about__button">Заказать сайт</button>
+                </div>
+                <div class="about__img"><img src="./image/about-img.png" alt="about"></div>
+            </div>
+            <footer class="footer">
+                <div class="copyright">©2019 г. Set3up.ru «Feizov Web Developer Site»</div>
+            </footer>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/0006554e07.js" crossorigin="anonymous"></script>
+    <script src="./lib/jquery-3.4.1.min.js"></script>
+    <script src="./lib/owl.carousel.js"></script>
+    <script type="text/javascript">
+        {
+            if (screen.width > 1024) document.write ('<script type="text/javascript" src="./lib/fullpage.min.js" ></sc' + 'ript>');
+        }
+    </script>
+    <script type="text/javascript">
+        {
+            if (screen.width <= 1024) document.write ('<script type="text/javascript" src="./js/smoothtr.js" ></sc' + 'ript>');
+        }
+    </script>
+    <script src="./js/common.js"></script>
+</body>
+</html>
